@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "40575257603",
+    "project_id": "mediquick-medicineapp",
+    "storage_bucket": "mediquick-medicineapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40575257603:android:fba312945f9b1716185236",
+        "android_client_info": {
+          "package_name": "com.example.mediquick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPK0qO1i-W-sOC765O2I4rwjZtrgfnSSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
