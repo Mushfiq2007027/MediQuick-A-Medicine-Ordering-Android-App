@@ -1,87 +1,97 @@
-# MediQuick - A Medicine Ordering Android App
-
-## 🚀 Main Features
-
-1. **Signup Option**: New users can create an account by providing necessary information, ensuring a personalized and secure experience.
-
-2. **Login**: Existing users can securely log in to access their profiles, order history, and other personalized features.
-
-3. **Checking Medicines with Discount**: Users can browse and find medicines that are currently on discount, making it easy to save money on essential purchases.
-
-4. **Choose Category**: Users can select from various categories of medicines, facilitating quick and easy navigation to the products they need.
-
-5. **Check Medicine According to Category**: Within each category, users can view all available medicines, helping them find specific items based on their requirements.
-
-6. **Each Medicine Has Its Own Description**: Detailed descriptions for each medicine, including uses, dosage, side effects, and price, are provided to help users make informed decisions.
-
-7. **Add to Cart Option**: Users can add selected medicines to their shopping cart, review their selections, and modify quantities as needed.
-
-8. **Order Placing Option**: Users can proceed to place orders for the medicines in their cart, choosing delivery options.
+# MediQuick — A Medicine Ordering Android Application
 
 ---
 
-## 🧱 Design Pattern
+## Table of Contents
 
-**Activity Package:**
-
-- `IntroActivity.java`: Singleton Design Pattern
-- `SignupActivity.java`: Factory Design Pattern
-- `LoginActivity.java`: Factory Design Pattern
-- `BaseActivity.java`: Singleton Design Pattern
-- `ListMedicinesActivity.java`: Factory Design Pattern
-
-**Adapter Package:**
-
-- All classes in this package follow the Adapter Design Pattern.
+- [Main Features](#main-features)
+- [Design Patterns](#design-patterns)
+- [Unit Testing](#unit-testing)
+- [Instrumentation Testing](#instrumentation-testing)
+- [UI Testing](#ui-testing)
+- [Documentation](#documentation)
+- [Application Screenshots](#application-screenshots)
 
 ---
 
-## ✅ Unit Testing
+## Main Features
 
-We have performed unit testing for the classes in the Domain package.
+1. **User Registration** — New users can create a personal account by submitting the required information, establishing a secure and individualized application experience.
 
-Tested Classes:
+2. **User Authentication** — Registered users can securely log in to access their profile, order history, and all associated personalized functionality.
 
-1. `CategoryTest.java`  
-2. `MedicinesTest.java`  
-3. `LocationTest.java`  
-4. `PriceTest.java`  
+3. **Discounted Medicines** — The application provides a dedicated view of medicines currently available at discounted prices, enabling users to identify cost-effective options for essential purchases.
+
+4. **Category Selection** — Medicines are organized into clearly defined categories, allowing users to navigate efficiently to the product segment relevant to their needs.
+
+5. **Category-wise Medicine Listing** — Within each selected category, users can browse the complete inventory of available medicines, facilitating targeted product discovery.
+
+6. **Medicine Detail View** — Each medicine entry includes a comprehensive description covering its intended uses, recommended dosage, potential side effects, and pricing information, empowering users to make informed purchasing decisions.
+
+7. **Shopping Cart** — Users can add medicines to a persistent shopping cart, review their selected items, and adjust quantities prior to checkout.
+
+8. **Order Placement** — Users can finalize and submit orders for the items in their cart, with available delivery options presented during the checkout process.
+
+---
+
+## Design Patterns
+
+### Activity Package
+
+| Class | Design Pattern Applied |
+|---|---|
+| `IntroActivity.java` | Singleton |
+| `SignupActivity.java` | Factory |
+| `LoginActivity.java` | Factory |
+| `BaseActivity.java` | Singleton |
+| `ListMedicinesActivity.java` | Factory |
+
+### Adapter Package
+
+All classes within the Adapter package conform to the **Adapter Design Pattern**.
+
+---
+
+## Unit Testing
+
+Unit testing has been conducted for all classes within the Domain package. The following test classes were implemented:
+
+1. `CategoryTest.java`
+2. `MedicinesTest.java`
+3. `LocationTest.java`
+4. `PriceTest.java`
 5. `TimeTest.java`
 
 ---
 
-## 🧪 Instrumentation Testing
+## Instrumentation Testing
 
-Instrumentation testing was performed using:
+Instrumentation testing was carried out using the following test class:
 
 - `DomainInstrumentedTest.java`
 
 ---
 
-## 🖥️ UI Testing
+## UI Testing
 
-UI testing was performed for:
+User interface testing was performed for the registration and authentication flows. The following activity and test class pairs were covered:
 
-1. `SignupActivity.java`  
-2. `LoginActivity.java`  
-
-Test Classes:
-
-- `SignupActivityTest.java`  
-- `LoginActivityTest.java`
+| Activity | Test Class |
+|---|---|
+| `SignupActivity.java` | `SignupActivityTest.java` |
+| `LoginActivity.java` | `LoginActivityTest.java` |
 
 ---
 
-## 📄 Documentation
+## Documentation
 
-**Javadoc Comments**:  
-Comprehensive Javadoc comments have been added to the codebase. These comments facilitate the generation of detailed API documentation and help developers understand the code structure, functionality, and usage of different classes and methods.
+Comprehensive Javadoc comments have been integrated throughout the codebase to support automated API documentation generation and to provide developers with clear, structured insight into the purpose, behavior, and usage of each class and method.
 
-> Javadoc comments have been added to all classes under the Activity package.
+> Javadoc annotations have been applied to all classes within the Activity package.
 
 ---
 
-## 📱 Snapshot of App
+## Application Screenshots
 
 <table>
   <tr>
@@ -91,7 +101,7 @@ Comprehensive Javadoc comments have been added to the codebase. These comments f
   </tr>
   <tr>
     <td><b>Main Page</b><br><img src="https://github.com/Mushfiq2007027/MediQuick-A-Medicine-Ordering-Android-App/assets/132667084/e4453bcd-b0b3-4f38-aac4-85fdac6f3dbc" width="200"/></td>
-    <td><b>Categorywise Medicine List</b><br><img src="https://github.com/Mushfiq2007027/MediQuick-A-Medicine-Ordering-Android-App/assets/132667084/efa140fd-6294-4e33-adc5-75608a1e456c" width="200"/></td>
+    <td><b>Category-wise Medicine List</b><br><img src="https://github.com/Mushfiq2007027/MediQuick-A-Medicine-Ordering-Android-App/assets/132667084/efa140fd-6294-4e33-adc5-75608a1e456c" width="200"/></td>
     <td><b>Medicine Details Page</b><br><img src="https://github.com/Mushfiq2007027/MediQuick-A-Medicine-Ordering-Android-App/assets/132667084/92e0bf67-8846-4ae0-a9a3-0ba24eefe502" width="200"/></td>
   </tr>
   <tr>
